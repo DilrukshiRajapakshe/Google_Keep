@@ -1,0 +1,97 @@
+.shadow-sm {
+  margin: 50PX; }
+
+.form-control {
+  border: none; }
+  .form-control:focus {
+    outline-color: white;
+    box-shadow: none; }
+
+.fa-check-square {
+  margin-top: 12px;
+  margin-right: 30px; }
+
+.material-icons {
+  margin-top: 9px;
+  margin-right: 30px; }
+
+.fa-image {
+  margin-top: 15px; }
+
+#tbody1 {
+  display: none; }
+
+#post {
+  display: none; }
+
+#title {
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 90px;
+  position: absolute;
+  top: 2px; }
+  #title:hover {
+    display: block; }
+
+#thumbnail {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: 100px;
+  border: none; }
+  #thumbnail:hover + #title {
+    display: block; }
+  #thumbnail:focus {
+    outline-color: white;
+    box-shadow: none; }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #DFE2E2; }
+
+#a {
+  width: 100px;
+  height: 100px;
+  padding: 8px; }
+  #a:hover {
+    display: block; }
+
+.shadow-sm {
+  margin: 10PX;
+  margin-top: 50px; }
+
+img {
+  margin: 15px;
+  margin-right: 75px; }
+
+#take_A_tital {
+  display: none; }
+
+input[type="checkbox" i] {
+  height: 15px;
+  width: 15px;
+  text-align: right;
+  background-color: white; }
+  input[type="checkbox" i]:focus {
+    background-color: white;
+    outline-color: white;
+    box-shadow: none; }
+
+hr {
+  display: none; }
+
+#but2 {
+  display: none;
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+  background-color: Transparent; }
+  #but2:focus {
+    outline: none; }
+
+/*# sourceMappingURL=style.css.map */
